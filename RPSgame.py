@@ -39,9 +39,9 @@ computer_chosen = choices[computer_choice]
 if(user_choice >=0 and user_choice <=3):
     if(user_choice == 0 and computer_choice ==1):
         print("computer won")
-    else if(user_choice == 1 and computer_choice == 2):
+    elif(user_choice == 1 and computer_choice == 2):
         print("computer won")
-    else if(user_choice == 2 and computer_choice == 0):
+    elif(user_choice == 2 and computer_choice == 0):
         print("computer won")
     else:
         print("you won")
